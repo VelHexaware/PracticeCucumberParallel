@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-19T10:40:59.851Z",
+        "line": 11,
+        "name": "Verifying  login details with invalid credentials",
+        "description": "",
+        "id": "verifying-the-facebook-details;verifying--login-details-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15987294500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on facebook page",
+            "match": {
+              "location": "LoginPageStep.user_is_on_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 306359300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"Bala\" , \"Guna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bala\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Guna\"",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginPageStep.user_enters(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12936449800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the login button",
+            "match": {
+              "location": "LoginPageStep.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.stepdefinition.LoginPageStep.verify_success_message(LoginPageStep.java:42)\r\n\tat ✽.verify success message(file:src/test/resources/Features/Hello.feature:7)\r\n",
+              "duration": 3839500,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "verify success message",
+            "match": {
+              "location": "LoginPageStep.verify_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the facebook details",
+    "description": "",
+    "id": "verifying-the-facebook-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Hello.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-19T10:40:59.851Z",
+        "line": 11,
+        "name": "Verifying  login details with invalid credentials",
+        "description": "",
+        "id": "verifying-the-facebook-details;verifying--login-details-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15916275300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on facebook page",
+            "match": {
+              "location": "LoginPageStep.user_is_on_facebook_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 294690900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"Hello\" , \"JAVA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"JAVA\"",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginPageStep.user_enters(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30894283800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the login button",
+            "match": {
+              "location": "LoginPageStep.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat com.stepdefinition.LoginPageStep.verify_success_message(LoginPageStep.java:42)\r\n\tat ✽.verify success message(file:src/test/resources/Features/LoginPage.feature:7)\r\n",
+              "duration": 466300,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "verify success message",
+            "match": {
+              "location": "LoginPageStep.verify_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the facebook details",
+    "description": "",
+    "id": "verifying-the-facebook-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/LoginPage.feature",
+    "tags": []
+  }
+]
